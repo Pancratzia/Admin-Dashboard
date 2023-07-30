@@ -10,6 +10,7 @@ import {
   RouterProvider,
   Outlet,
 } from "react-router-dom";
+import Login from "./pages/login/Login";
 
 function App() {
 
@@ -49,6 +50,10 @@ function App() {
           element: <Products />,
         }
       ]
+    },
+    {
+      path: "/login",
+      element: <Login />,
     }
   ]);
 
