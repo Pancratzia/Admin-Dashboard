@@ -7,17 +7,13 @@ import Menu from "./components/menu/Menu";
 
 import "./styles/global.scss";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Outlet,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Login from "./pages/login/Login";
 import Product from "./pages/product/Product";
 import User from "./pages/user/User";
 
-function App() {
 
+function App() {
   const Layout = () => {
     return (
       <div className="main">
@@ -34,8 +30,8 @@ function App() {
 
         <Footer />
       </div>
-    )
-  }
+    );
+  };
   const router = createBrowserRouter([
     {
       path: "/",
@@ -60,13 +56,13 @@ function App() {
         {
           path: "/products/:id",
           element: <Product />,
-        }
-      ]
+        },
+      ],
     },
     {
       path: "/login",
       element: <Login />,
-    }
+    },
   ]);
 
   return <RouterProvider router={router} />;
