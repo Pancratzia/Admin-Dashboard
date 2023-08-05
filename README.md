@@ -8,3 +8,4 @@
 - [Recharts](https://recharts.org/en-US/)
 - [Material UI](https://mui.com/)
 - [Material UI - React Data Grid](https://mui.com/x/react-data-grid/)
+- [React Query](https://tanstack.com/query/latest/docs/react/installation)
