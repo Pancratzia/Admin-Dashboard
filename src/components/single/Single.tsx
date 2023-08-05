@@ -54,7 +54,7 @@ function Single() {
         <div className="info">
 
           <div className="topInfo">
-            <img src="" alt="" />
+            <img src="https://avatars.githubusercontent.com/u/54899954?v=4" alt="picture" />
             <h1>Pancratzia</h1>
             <button>Update</button>
           </div>
@@ -88,6 +88,8 @@ function Single() {
           </div>
         </div>
 
+        <hr />
+        
         <div className="chart">
 
         <ResponsiveContainer width="100%" height="100%">
